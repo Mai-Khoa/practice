@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <header id="header">
+      <div class="left d-flex">
+        <button type="button" class="reset-button">
+            <img src="./../../access/icon/ic_menu.png" alt="menu">
+        </button>
+        <div>
+          <a href="/" class="logo">
+            <img src="./../../access/icon/logo_youtube.png" alt="menu">
+          </a> 
+        <span class="country">VN</span>
+      </div>
+      </div>
+      <div class="middle">
+        <form >
+          <input type="text" placeholder="Tìm kiếm" class="search" />
+          <button type="submit" class="btn-search search">
+            <img src="./../../access/icon/ic_search.png" alt="search">
+          </button>
+        </form>
+        <button type="button" class="btn-mic reset-button">
+          <img src="./../../access/icon/ic_mic.png" alt="mic">
+        </button>
+      </div>
+      <div class="right">
+        <button type="button" class="reset-button">
+          <img src="./../../access/icon/ic-add.png" alt="add">
+        </button>
+        <button type="button" class="reset-button">
+          <img src="./../../access/icon/ic_more.png" alt="more">
+        </button>
+        <button type="button" class="btn-signin btn-large">
+          <img src="./../../access/icon/ic_avt.png" alt="avt">
+          <span>Đăng nhập</span>
+        </button>
+      </div>
+    </header>
+    <aside id="sidebar">
+      <nav class="nav-separator">
+        <a href="#" class="active">
+          <img src="./../../access/icon/ic_home.png" alt="">
+          <span>Trang chủ</span>
+        </a>
+        <a href="#">
+          <img src="./../../access/icon/ic-shorts.png" alt="">
+          <span>Shorts</span>
+        </a>
+        <a href="#">
+          <img src="./../../access/icon/ic_sub.png" alt="">
+          <span>Kênh đăng ký</span>
+        </a>
+      </nav>
+      <nav class="nav-separator">
+        <a href="#">
+          <img src="./../../access/icon/ic_channel.png" alt="">
+          <span>Kênh của bạn</span>
+        </a>
+        <a href="#">
+          <img src="./../../access/icon/ic_history.png" alt="">
+          <span>Lịch sử</span>
+        </a>
+      </nav>
+      <div class="pitch-signin">
+        <p>Đăng nhập để thích video, bình luận và đăng ký.</p>
+        <button type="button" class="btn-signin">
+          <img src="./../../access/icon/ic_avt.png" alt="">
+          <span>Đăng nhập</span>
+        </button>
+      </div>
+      <div class="nav-with-title best-of-youtube">
+        <h3>Khám phá</h3>
+        <nav>
+          <a href="#" class="menu-choosen">
+            <div class="icon-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M14 6V3c-.85.44-1.7.88-2.55 1.33-1.41.74-2.9 1.34-4.17 2.32-1.13.87-2.02 2.05-2.58 3.37-.46 1.09-.7 2.29-.7 3.48v.14C4 18.26 7.58 22 12 22s8-3.74 8-8.36V2l-6 4zm0 9.7c0 1.82-1.34 3.3-3 3.3s-3-1.47-3-3.3c0-1.19.58-2.24 1.45-2.82L14 10v5.7z"></path></svg>
+          </div>
+            <span>Thịnh hành</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_music.png" alt="">
+            <span>Music</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_game.png" alt="">
+            <span>Trò chơi</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_new.png" alt="">
+            <span>Tin tức</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_sport.png" alt="">
+            <span>Thể thao</span>
+          </a>
+        </nav>
+      </div>
+      <nav class="nav-separator">
+        <a href="#">
+          <img src="/access/icon/ic-add.png" alt="">
+          <span>Duyệt kênh</span>
+        </a>
+      </nav>
+      <div class="nav-with-title more-from-youtube">
+        <h3>Thông tin khác từ Youtube</h3>
+        <nav>
+          <a href="#">
+            <img src="/access/icon/ic_youtube_pre.png" alt="">
+            <span>YouTube Premium</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_youtube_stu.png" alt="">
+            <span>YouTube Studio</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_youtube_music.png" alt="">
+            <span>YouTube Studio</span>
+          </a>
+          <a href="#">
+            <img src="/access/icon/ic_youtube_kid.png" alt="">
+            <span>YouTube Studio</span>
+          </a>
+        </nav>
+      </div>
+      <nav class="nav-separator">
+        <a href="#">
+          <img src="/access/icon/ic_setting.png" alt="">
+          <span>Cài đặt</span>
+        </a>
+        <a href="#">
+          <img src="/access/icon/ic_report_his.png" alt="">
+          <span>Nhật ký báo cáo</span>
+        </a>
+        <a href="#">
+          <img src="/access/icon/ic_help.png" alt="">
+          <span>Trợ giúp</span>
+        </a>
+        <a href="#">
+          <img src="/access/icon/ic_feedback.png" alt="">
+          <span>Gửi ý kiến phản hồi</span>
+        </a>
+      </nav>
+      <div class="sitemap">
+        <p>
+          <a href="#">Giới thiệu</a>
+          <a href="#">Báo chí</a>
+          <a href="#">Bản quyền</a><br />
+          <a href="#">Liên hệ chúng tôi</a>
+          <a href="#">Người sáng tạo</a><br />
+          <a href="#">Quảng cáo</a>
+          <a href="#">Nhà phát triển</a>
+        </p>
+        <p>
+          <a href="#">Điều khoản</a>
+          <a href="#">Quyền riêng tư</a>
+          <a href="#">Chính sách và an toàn</a><br />
+          <a href="#">Cách YouTube hoạt động</a><br />
+          <a href="#">Thử các tính năng mới</a>
+        </p>
+      </div>
+      <p class="copyright">© 2024 Google LLC</p>
+    </aside>
+    <section id="trending">
+      <div class="trending-content">
+        <div class="d-flex align-center">
+          <img src="./../../images/trending.png" alt="" class="img-title">
+          <span class="title-trending">Thịnh hành</span>
+        </div>
+        <div class="tabs">
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+            <label for="tab-1" class="tab-label">Mới nhất</label>
+            <div class="tab-content">
+              <article class="video-thumb d-flex">
+                <div class="img img-trending">
+                   <img class="thumb image" src="../../images/short_1.png" />
+                   <div class="short-vd">
+                    <div class="d-flex">                    
+                      <svg class="img-short" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="m17.77 10.32-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25z"></path></svg>
+                     <span >SHORTS</span>
+                    </div>
+                  </div>
+                </div>
+              <div class="details">
+                <div class="infos">
+                  <h3 class="name-video">BÀN CHÂN KHỔNG LỒ KÌ LẠ #haibadane #shorts</h4>
+                  <div class="d-flex align-center">
+                    <p>
+                      Hai bà dà nè
+                    <svg
+                    class="mr-2"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                        fill="#606060"
+                      />
+                    </svg>
+                  </p>
+                  <p class="mr-2">4,9 Tr lượt xem</p>
+                  <p class="mr-2">*</p>
+                  <p class="mr-2">5 ngày trước</p>
+                  </div>  
+                  <p>Hai bà dà chào cả nhàaaaa 👵👵 Cả nhà nhớ nhấn nút Đăng ký 👍 và bật Chuông thông báo 🔔 để không bỏ lỡ bất kỳ video mới nào của hai bà nha...</p>               
+                </div>
+              </div>
+            </article>
+            <article class="video-thumb d-flex">
+              <div class="img img-trending">
+                 <img class="thumb image" src="../../images/short_2.png" />
+                 <div class="short-vd">
+                  <div class="d-flex">                    
+                    <svg class="img-short" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="m17.77 10.32-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25z"></path></svg>
+                   <span >SHORTS</span>
+                  </div>
+                </div>
+              </div>
+            <div class="details">
+              <div class="infos">
+                <h3 class="name-video">Cách nhả vía em bé Rồng cho bạn thân ​@VeVeChannel #dudufamily #shorts #tradang #vevechannel</h4>
+                <div class="d-flex align-center">
+                  <p>
+                    Trà Đặng Official
+                  <svg
+                  class="mr-2"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                      fill="#606060"
+                    />
+                  </svg>
+                </p>
+                <p class="mr-2">1,7 Tr lượt xem</p>
+                <p class="mr-2">*</p>
+                <p class="mr-2">3 ngày trước</p>
+                </div>  
+              </div>
+            </div>
+          </article>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+            <label for="tab-2" class="tab-label">Âm nhạc</label>
+            <div class="tab-content">
+              <article class="video-thumb d-flex">
+                <div class="img img-trending">
+                   <img class="thumb image" src="../../images/t01.png" />
+                   <div class="time-vd">
+                     <span >1:40:29</span>
+                    </div>
+                </div>
+              <div class="details">
+                <div class="infos">
+                  <h3 class="name-video">Nhạc Chill Vui Tươi Yêu Đời - Playlist Vui Vẻ Mang Năng Lượng Tích Cực Cho Ngày Mới - Iu Là Đây</h4>
+                  <div class="d-flex align-center">
+                    <p>
+                    Iu Là Đây
+                    <svg
+                    class="mr-2"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                        fill="#606060"
+                      />
+                    </svg>
+                  </p>
+                  <p class="mr-2">233 N lượt xem</p>
+                  <p class="mr-2">*</p>
+                  <p class="mr-2">5 ngày trước</p>
+                  </div>  
+                  <p>Hai bà dà chào cả nhàaaaa 👵👵 Cả nhà nhớ nhấn nút Đăng ký 👍 và bật Chuông thông báo 🔔 để không bỏ lỡ bất kỳ video mới nào của hai bà nha...</p>               
+                </div>
+              </div>
+            </article>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+            <label for="tab-3" class="tab-label">Trò chơi</label>
+            <div class="tab-content">
+              <article class="video-thumb d-flex">
+                <div class="img img-trending">
+                   <img class="thumb image" src="../../images/short_1.png" />
+                   <div class="short-vd">
+                    <div class="d-flex">                    
+                      <svg class="img-short" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="m17.77 10.32-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25z"></path></svg>
+                     <span >SHORTS</span>
+                    </div>
+                  </div>
+                </div>
+              <div class="details">
+                <div class="infos">
+                  <h3 class="name-video">BÀN CHÂN KHỔNG LỒ KÌ LẠ #haibadane #shorts</h4>
+                  <div class="d-flex align-center">
+                    <p>
+                      Hai bà dà nè
+                    <svg
+                    class="mr-2"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                        fill="#606060"
+                      />
+                    </svg>
+                  </p>
+                  <p class="mr-2">4,9 Tr lượt xem</p>
+                  <p class="mr-2">*</p>
+                  <p class="mr-2">5 ngày trước</p>
+                  </div>  
+                  <p>Hai bà dà chào cả nhàaaaa 👵👵 Cả nhà nhớ nhấn nút Đăng ký 👍 và bật Chuông thông báo 🔔 để không bỏ lỡ bất kỳ video mới nào của hai bà nha...</p>               
+                </div>
+              </div>
+            </article>
+            <article class="video-thumb d-flex">
+              <div class="img img-trending">
+                 <img class="thumb image" src="../../images/short_2.png" />
+                 <div class="short-vd">
+                  <div class="d-flex">                    
+                    <svg class="img-short" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="m17.77 10.32-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25z"></path></svg>
+                   <span >SHORTS</span>
+                  </div>
+                </div>
+              </div>
+            <div class="details">
+              <div class="infos">
+                <h3 class="name-video">Cách nhả vía em bé Rồng cho bạn thân ​@VeVeChannel #dudufamily #shorts #tradang #vevechannel</h4>
+                <div class="d-flex align-center">
+                  <p>
+                    Trà Đặng Official
+                  <svg
+                  class="mr-2"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                      fill="#606060"
+                    />
+                  </svg>
+                </p>
+                <p class="mr-2">1,7 Tr lượt xem</p>
+                <p class="mr-2">*</p>
+                <p class="mr-2">3 ngày trước</p>
+                </div>  
+              </div>
+            </div>
+          </article>
+            </div>
+          </div>
+          <div class="tab">
+            <input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
+            <label for="tab-4" class="tab-label">Phim ảnh</label>
+            <div class="tab-content">
+              <article class="video-thumb d-flex">
+                <div class="img img-trending">
+                   <img class="thumb image" src="../../images/t01.png" />
+                   <div class="time-vd">
+                     <span >1:40:29</span>
+                    </div>
+                </div>
+              <div class="details">
+                <div class="infos">
+                  <h3 class="name-video">Nhạc Chill Vui Tươi Yêu Đời - Playlist Vui Vẻ Mang Năng Lượng Tích Cực Cho Ngày Mới - Iu Là Đây</h4>
+                  <div class="d-flex align-center">
+                    <p>
+                    Iu Là Đây
+                    <svg
+                    class="mr-2"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.99999 1.16666C3.79166 1.16666 1.16666 3.79166 1.16666 7C1.16666 10.2083 3.79166 12.8333 6.99999 12.8333C10.2083 12.8333 12.8333 10.2083 12.8333 7C12.8333 3.79166 10.2083 1.16666 6.99999 1.16666ZM5.71666 10.0917L3.26666 7.7L4.08332 6.88333L5.71666 8.45833L9.91666 4.31666L10.7333 5.13333L5.71666 10.0917Z"
+                        fill="#606060"
+                      />
+                    </svg>
+                  </p>
+                  <p class="mr-2">233 N lượt xem</p>
+                  <p class="mr-2">*</p>
+                  <p class="mr-2">5 ngày trước</p>
+                  </div>  
+                  <p>Hai bà dà chào cả nhàaaaa 👵👵 Cả nhà nhớ nhấn nút Đăng ký 👍 và bật Chuông thông báo 🔔 để không bỏ lỡ bất kỳ video mới nào của hai bà nha...</p>               
+                </div>
+              </div>
+            </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
