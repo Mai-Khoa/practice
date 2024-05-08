@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
@@ -20,7 +20,7 @@
             <img src="./access/icon/ic_menu.png" alt="menu">
         </button>
         <div>
-          <a href="/" class="logo">
+          <a href="./index.html" class="logo">
             <img src="./access/icon/logo_youtube.png" alt="menu">
           </a> 
         <span class="country">VN</span>
@@ -85,31 +85,31 @@
       <div class="nav-with-title best-of-youtube">
         <h3>Khám phá</h3>
         <nav>
-          <a href="/screen/trending/trending.html">
-            <img src="/access/icon/ic_explore.png" alt="">
+          <a href="./screen/trending/trending.html">
+            <img src="./access/icon/ic_explore.png" alt="">
             <span>Thịnh hành</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_music.png" alt="">
+            <img src="./access/icon/ic_music.png" alt="">
             <span>Music</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_game.png" alt="">
+            <img src="./access/icon/ic_game.png" alt="">
             <span>Trò chơi</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_new.png" alt="">
+            <img src="./access/icon/ic_new.png" alt="">
             <span>Tin tức</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_sport.png" alt="">
+            <img src="./access/icon/ic_sport.png" alt="">
             <span>Thể thao</span>
           </a>
         </nav>
       </div>
       <nav class="nav-separator">
         <a href="#">
-          <img src="/access/icon/ic-add.png" alt="">
+          <img src="./access/icon/ic-add.png" alt="">
           <span>Duyệt kênh</span>
         </a>
       </nav>
@@ -117,38 +117,38 @@
         <h3>Thông tin khác từ Youtube</h3>
         <nav>
           <a href="#">
-            <img src="/access/icon/ic_youtube_pre.png" alt="">
+            <img src="./access/icon/ic_youtube_pre.png" alt="">
             <span>YouTube Premium</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_youtube_stu.png" alt="">
+            <img src="./access/icon/ic_youtube_stu.png" alt="">
             <span>YouTube Studio</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_youtube_music.png" alt="">
+            <img src="./access/icon/ic_youtube_music.png" alt="">
             <span>YouTube Studio</span>
           </a>
           <a href="#">
-            <img src="/access/icon/ic_youtube_kid.png" alt="">
+            <img src="./access/icon/ic_youtube_kid.png" alt="">
             <span>YouTube Studio</span>
           </a>
         </nav>
       </div>
       <nav class="nav-separator">
         <a href="#">
-          <img src="/access/icon/ic_setting.png" alt="">
+          <img src="./access/icon/ic_setting.png" alt="">
           <span>Cài đặt</span>
         </a>
         <a href="#">
-          <img src="/access/icon/ic_report_his.png" alt="">
+          <img src="./access/icon/ic_report_his.png" alt="">
           <span>Nhật ký báo cáo</span>
         </a>
         <a href="#">
-          <img src="/access/icon/ic_help.png" alt="">
+          <img src="./access/icon/ic_help.png" alt="">
           <span>Trợ giúp</span>
         </a>
         <a href="#">
-          <img src="/access/icon/ic_feedback.png" alt="">
+          <img src="./access/icon/ic_feedback.png" alt="">
           <span>Gửi ý kiến phản hồi</span>
         </a>
       </nav>
@@ -174,19 +174,19 @@
     </aside>
     <section id="content">
       <header id="header-tags">
-        <a href="#" class="selected">Tất cả</a>
-        <a href="#">Danh sách kết hợp</a>
-        <a href="#">Âm nhạc</a>
-        <a href="#">Tin tức</a>
-        <a href="#">Trò chơi</a>
-        <a href="#">Trực tiếp</a>
-        <a href="#">Đọc rap</a>
-        <a href="#">Thiên nhiên</a>
-        <a href="#">Mới tải lên gần đây</a>
-        <a href="#">Đã xem</a>
-        <a href="#">Đề xuất mới</a>
+        <a href="#" id="all" class="selected">Tất cả</a>
+        <a href="#" id="list_sub">Danh sách kết hợp</a>
+        <a href="#" id="music">Âm nhạc</a>
+        <a href="#" id="new">Tin tức</a>
+        <a href="#" id="game">Trò chơi</a>
+        <a href="#" id="live">Trực tiếp</a>
+        <a href="#" id="rap">Đọc rap</a>
+        <a href="#" id="nature">Thiên nhiên</a>
+        <a href="#" id="upload">Mới tải lên gần đây</a>
+        <a href="#" id="seen">Đã xem</a>
+        <a href="#" id="request">Đề xuất mới</a>
       </header>
-      <div class="thumbs-list">
+      <div class="thumbs-list" id="thumbs-list">
         <article class="video-thumb">
             <div class="img">
                <img class="thumb" src="images/t01.png" />
@@ -933,5 +933,6 @@
 
       </div>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>
